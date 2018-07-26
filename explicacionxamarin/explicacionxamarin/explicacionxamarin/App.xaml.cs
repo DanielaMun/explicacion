@@ -11,7 +11,7 @@ namespace explicacionxamarin
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new Views();
 		}
 
 		protected override void OnStart ()

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="explicacionxamarin.Views">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button HorizontalOptions="Center"
+                 BackgroundColor="Accent"
+                 Text="enviar"
+                 TextColor="AliceBlue"
+                 BorderColor="DarkBlue"
+                 BorderWidth="3"
+                FontSize="Large"
+                 FontAttributes="Italic"
+                 Clicked="btnEnviarClicked"/>
+            <DatePicker x:Name="dtpfecha"
+                        Format="dd/MM/yyyy "/>
+            <Editor x:Name="EdComentario" HeightRequest="100"
+                    Text="Escribe Aqui"
+                    FontAttributes="Bold"
+                    FontSize="Micro"
+                    TextColor="Ivory"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
