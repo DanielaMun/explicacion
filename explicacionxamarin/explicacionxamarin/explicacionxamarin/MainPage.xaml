@@ -4,11 +4,12 @@
              xmlns:local="clr-namespace:explicacionxamarin"
              x:Class="explicacionxamarin.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+   
+        <ActivityIndicator Color="Azure"
+                           IsRunning="True">
+            
+        </ActivityIndicator>
+            
+    
 
 </ContentPage>
