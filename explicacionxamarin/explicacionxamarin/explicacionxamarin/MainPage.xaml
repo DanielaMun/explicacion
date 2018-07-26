@@ -4,12 +4,25 @@
              xmlns:local="clr-namespace:explicacionxamarin"
              x:Class="explicacionxamarin.MainPage">
 
-   
+    <StackLayout
         <ActivityIndicator Color="Azure"
-                           IsRunning="True">
-            
-        </ActivityIndicator>
-            
-    
+                           IsRunning="True"/>
+
+        <BoxView Color="Beige"
+                 WidthRequest="20"
+                 HeightRequest="20" 
+                 HorizontalOptions="Center"/>
+
+        <Button Text="xamarin"
+                TextColor="AntiqueWhite"
+                BackgroundColor="Black"
+                FontSize="Large"
+                FontAttributes="Bold"
+                BorderColor="Accent"
+                BorderWidth="2"
+                Image="if_book_285636.png"
+                ContentLayout="Top,10"/>
+
+    </StackLayout>
 
 </ContentPage>
